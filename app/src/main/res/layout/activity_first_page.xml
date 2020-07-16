@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FirstPage"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/intro_img"
+        android:layout_width="398dp"
+        android:layout_height="268dp"
+        android:layout_gravity="center"
+        android:foregroundGravity="center"
+        android:visibility="visible"
+        app:srcCompat="@drawable/motorcycle" />
+
+    <EditText
+        android:id="@+id/email_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="18sp"
+        android:drawableLeft="@android:drawable/sym_action_email"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter your email"
+        android:inputType="textPersonName"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/username_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="18sp"
+        android:drawableLeft="@android:drawable/ic_menu_myplaces"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter your username"
+        android:inputType="textPersonName"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/password_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="18sp"
+        android:drawableLeft="@android:drawable/ic_lock_idle_lock"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Enter your password"
+        android:inputType="textPassword"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/confirm_password_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="18sp"
+
+        android:drawableLeft="@android:drawable/ic_menu_help"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="Confirm your password"
+        android:inputType="textPassword"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/login_signup_button"
+        android:layout_width="108dp"
+        android:layout_height="64dp"
+        android:layout_gravity="center"
+        android:layout_margin="18sp"
+        android:gravity="center"
+
+        android:visibility="gone"
+        app:srcCompat="@android:drawable/ic_menu_send" />
+
+    <ImageView
+        android:id="@+id/signup_redirect"
+        android:layout_width="322dp"
+        android:layout_height="99dp"
+        android:layout_gravity="center"
+        android:layout_margin="18sp"
+        android:gravity="center"
+        android:visibility="visible"
+        app:srcCompat="@android:drawable/ic_menu_add" />
+
+    <ImageView
+        android:id="@+id/login_redirect"
+        android:layout_width="322dp"
+        android:layout_height="99dp"
+        android:layout_gravity="center"
+        android:layout_margin="18sp"
+        android:gravity="center"
+        android:visibility="visible"
+        app:srcCompat="@android:drawable/ic_media_ff" />
+</LinearLayout>

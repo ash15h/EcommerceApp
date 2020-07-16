@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/cont_shop"
+        android:icon="@drawable/cont_shop"
+        android:title="Continue Shopping"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/conf_order"
+        android:icon="@drawable/ic_baseline_verified_user_24"
+        android:title="Confirm Order"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/clear_order"
+        android:icon="@drawable/ic_baseline_remove_shopping_cart_24"
+        android:title="Clear Cart"
+        app:showAsAction="always" />
+</menu>
